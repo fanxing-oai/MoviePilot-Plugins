@@ -494,8 +494,8 @@
             "v1.0.0": "发布"
         }
     },
-    "LinkMonitor1": {
-        "name": "实时硬链接测试",
+    "AvMonitor1": {
+        "name": "AV实时硬链接测试",
         "description": "监控目录文件变化，实时硬链接。",
         "labels": "文件整理",
         "version": "1.0.0",
