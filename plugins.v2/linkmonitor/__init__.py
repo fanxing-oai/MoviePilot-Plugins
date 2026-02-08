@@ -43,7 +43,7 @@ class FileMonitorHandler(FileSystemEventHandler):
                                 mon_path=self._watch_path, event_path=event.dest_path)
 
 
-class LinkMonitor(_PluginBase):
+class LinkMonitor1(_PluginBase):
     # 插件名称
     plugin_name = "实时硬链接测试"
     # 插件描述
@@ -386,7 +386,7 @@ class LinkMonitor(_PluginBase):
         """
         if self._enabled and self._cron:
             return [{
-                "id": "LinkMonitor",
+                "id": "LinkMonitor1",
                 "name": "全量硬链接定时服务",
                 "trigger": CronTrigger.from_crontab(self._cron),
                 "func": self.sync_all,
