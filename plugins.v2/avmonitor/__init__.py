@@ -45,7 +45,7 @@ class AvMonitor(_PluginBase):
     plugin_name = "AV实时硬链接测试"
     plugin_desc = "监控目录文件变化，实时硬链接。"
     plugin_icon = "Linkace_C.png"
-    plugin_version = "1.0.0"
+    plugin_version = "1.0.1"
     plugin_author = "fanxing"
     # 作者主页
     author_url = "https://github.com/fanxing-oai"
