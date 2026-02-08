@@ -45,19 +45,19 @@ class FileMonitorHandler(FileSystemEventHandler):
 
 class LinkMonitor(_PluginBase):
     # 插件名称
-    plugin_name = "实时硬链接"
+    plugin_name = "实时硬链接测试"
     # 插件描述
     plugin_desc = "监控目录文件变化，按原文件名硬链接。"
     # 插件图标
     plugin_icon = "Linkace_C.png"
     # 插件版本
-    plugin_version = "1.6"
+    plugin_version = "1.0.0"
     # 插件作者
-    plugin_author = "jxxghp"
+    plugin_author = "fanxing"
     # 作者主页
-    author_url = "https://github.com/jxxghp"
+    author_url = "https://github.com/fanxing-oai"
     # 插件配置项ID前缀
-    plugin_config_prefix = "linkmonitor_"
+    plugin_config_prefix = "testlinkmonitor_"
     # 加载顺序
     plugin_order = 4
     # 可使用的用户级别
