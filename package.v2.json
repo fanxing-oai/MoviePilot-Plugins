@@ -493,5 +493,18 @@
             "v1.0.1": "兼容更多友商STRM文件地址，修复STRM地址编码错误",
             "v1.0.0": "发布"
         }
+    },
+    "LinkMonitor": {
+        "name": "实时硬链接",
+        "description": "监控目录文件变化，实时硬链接。",
+        "labels": "文件整理",
+        "version": "1.6",
+        "icon": "Linkace_C.png",
+        "author": "fanxing",
+        "level": 1,
+        "v2": true,
+        "history": {
+            "v1.6": "增强API安全性"
+        }
     }
 }
